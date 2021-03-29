@@ -1,7 +1,17 @@
 import React from 'react';
+import NavBar from './../common/navbar';
+import Footer from './../common/footer';
 
 const WhyNSUT = () => {
-    return ( <h1>WhyNSUT</h1> );
+    return (
+        <div>
+            <NavBar/>
+            <h1>WhyNSUT</h1> 
+            <Footer />
+        </div>
+    ) 
+   
+    
 }
  
 export default WhyNSUT;
