@@ -12,7 +12,7 @@ const NavBar = () => <Navbar bg="light" expand="lg" className='navbar-nsut' stic
       />
     </Navbar.Brand>
     <div className='title' >
-      <div style={{ fontSize: 16}}>TRAINING AND PLACEMENTS</div>
+      <div style={{ fontSize: 16}}>TRAINING AND PLACEMENT</div>
       <div style={{ fontSize: 14}}>NSUT EAST CAMPUS</div>
     </div>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />

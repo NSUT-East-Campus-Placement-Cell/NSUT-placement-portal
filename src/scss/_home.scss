@@ -35,6 +35,10 @@
 				color: white;
 				flex-basis: 75%;
 				padding-right: 3rem;
+				h1 {
+					margin-bottom: 0.5rem;
+				}
+
 				p {
 					color: #a9a9a9;
 				}
@@ -75,6 +79,7 @@
 		h1 {
 			margin-bottom: 3rem;
 			color: #424242;
+			font-size: 2.2rem;
 		}
 		.f-row {
 			display: flex;
@@ -96,6 +101,11 @@
 					width: 100px;
 					border-radius: 100px;
 					margin-right: 1.5rem;
+				}
+
+				h2 {
+					font-size: 25px;
+					color: #17404e;
 				}
 
 				p {

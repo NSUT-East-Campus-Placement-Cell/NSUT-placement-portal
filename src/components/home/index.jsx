@@ -46,7 +46,7 @@ const Home = () => {
         <section className='aboutNSUT container-fluid'>
             <div className='container'>
                 <div className='text'>
-                    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                    <h1>Our Campus</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ad fugit voluptate at laboriosam error deleniti sequi esse molestiae numquam sit saepe amet, culpa, temporibus quisquam? Architecto laudantium a totam, eius perferendis quam cum ad autem suscipit nam optio obcaecati tempora soluta aut eveniet esse? Molestiae quidem exercitationem culpa eaque?</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ad fugit voluptate at laboriosam error deleniti sequi esse molestiae numquam sit saepe amet, culpa, temporibus quisquam? Architecto laudantium a totam, eius perferendis quam cum ad autem suscipit nam optio obcaecati tempora soluta aut eveniet esse? Molestiae quidem exercitationem culpa eaque?</p>
                     <Button variant="success">Learn more</Button>
@@ -70,7 +70,7 @@ const Home = () => {
                     alt="Third slide"
                     />
                     <div>
-                        <h2>Lorem ipsum dolor sit.</h2>
+                        <h2>Courses Offered</h2>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, iusto pariatur quia consequuntur quod illo deserunt. Et maxime amet illum ea illo alias ab, ut corporis, beatae delectus natus quas? Delectus, sequi aperiam! Delectus a ducimus quisquam. Velit, laudantium reprehenderit?</p>
                         <a className='learn'>Learn more</a>
                     </div>
@@ -83,7 +83,7 @@ const Home = () => {
                     alt="Third slide"
                     />
                      <div>
-                        <h2>Lorem ipsum dolor sit.</h2>
+                        <h2>Our Alumni</h2>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, iusto pariatur quia consequuntur quod illo deserunt. Et maxime amet illum ea illo alias ab, ut corporis, beatae delectus natus quas? Delectus, sequi aperiam! Delectus a ducimus quisquam. Velit, laudantium reprehenderit?</p>
                         <a className='learn'>Learn more</a>
                     </div>
@@ -98,7 +98,7 @@ const Home = () => {
                     alt="Third slide"
                     />
                     <div>
-                        <h2>Lorem ipsum dolor sit.</h2>
+                        <h2>Societies and Events</h2>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, iusto pariatur quia consequuntur quod illo deserunt. Et maxime amet illum ea illo alias ab, ut corporis, beatae delectus natus quas? Delectus, sequi aperiam! Delectus a ducimus quisquam. Velit, laudantium reprehenderit?</p>
                         <a className='learn'>Learn more</a>
                     </div>
@@ -110,7 +110,7 @@ const Home = () => {
                     alt="Third slide"
                     />
                      <div>
-                        <h2>Lorem ipsum dolor sit.</h2>
+                        <h2>Past Recruiters</h2>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, iusto pariatur quia consequuntur quod illo deserunt. Et maxime amet illum ea illo alias ab, ut corporis, beatae delectus natus quas? Delectus, sequi aperiam! Delectus a ducimus quisquam. Velit, laudantium reprehenderit?</p>
                         <a className='learn'>Learn more</a>
 
