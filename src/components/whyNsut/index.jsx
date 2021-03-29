@@ -1,7 +1,9 @@
 import React from 'react';
 
 const WhyNSUT = () => {
-    return <h1>WhyNSUT</h1>;
+    return ( <div className='why-nsut'>
+        <h1>Why NSUT?</h1>
+    </div>);
    
     
 }
