@@ -1,19 +1,37 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import CardDeck from 'react-bootstrap/CardDeck'
 import Card from 'react-bootstrap/Card'
 import Col from 'react-bootstrap/Col'
 import { Container } from 'react-bootstrap';
 import {Row} from 'react-bootstrap'
-
+import Carousel from 'react-bootstrap/Carousel'
 
 
 export default function OurAlumni() {
   return (
     <div>
+    
+  <Carousel controls={false} indicators={false}>
+  <Carousel.Item >
+  <div>
+    <img
+      className="d-block w-100"
+      src="/alumni.jpg"
+      alt="First slide"
+      style={{height:'50vh',objectFit:'cover'}}
+    />
+    </div>
+    
+    <Carousel.Caption>
+      <h3>OUR ALUMNI</h3>
+    </Carousel.Caption>
+  </Carousel.Item>
+    </Carousel>
+    
+    
 <Container style={{marginTop:'5vh'}}>
   <Row>
-    <Col md={true}><Card border='light' style={{ width: '18rem',margin:'auto',marginBottom:'5vh' }}>
+    <Col md={true}><Card border='dark' style={{ width: '18rem',margin:'auto',marginBottom:'5vh' }}>
   <Card.Img variant="top" 
   src="/randomguy.jpg" 
   />
@@ -29,7 +47,7 @@ export default function OurAlumni() {
   </Card.Body>
 </Card></Col>
   
-    <Col md={true}><Card border='light' style={{ width: '18rem',margin:'auto',marginBottom:'5vh'}}>
+    <Col md={true}><Card border='dark' style={{ width: '18rem',margin:'auto',marginBottom:'5vh'}}>
   <Card.Img variant="top" src="/randomguy.jpg"/>
   <Card.Header>Header</Card.Header>
   <Card.Body>
@@ -42,7 +60,7 @@ export default function OurAlumni() {
   </Card.Body>
 </Card></Col>
  
-    <Col md={true}><Card border='light' style={{ width: '18rem',margin:'auto',marginBottom:'5vh' }}>
+    <Col md={true}><Card border='dark' style={{ width: '18rem',margin:'auto',marginBottom:'5vh' }}>
   <Card.Img variant="top" src="/randomguy.jpg" />
   <Card.Header>Header</Card.Header>
   <Card.Body>
@@ -58,7 +76,7 @@ export default function OurAlumni() {
   </Row>
   <br/>
   <Row>
-    <Col md={true}><Card border='light' style={{ width: '18rem',margin:'auto',marginBottom:'5vh' }}>
+    <Col md={true}><Card border='dark' style={{ width: '18rem',margin:'auto',marginBottom:'5vh' }}>
   <Card.Img variant="top" src="/randomguy.jpg" />
   <Card.Header>Header</Card.Header>
   <Card.Body>
@@ -71,7 +89,7 @@ export default function OurAlumni() {
   </Card.Body>
 </Card></Col>
 
-    <Col md={true}><Card border='light' style={{ width: '18rem',margin:'auto',marginBottom:'5vh' }}>
+    <Col md={true}><Card border='dark' style={{ width: '18rem',margin:'auto',marginBottom:'5vh' }}>
   <Card.Img variant="top" src="/randomguy.jpg" />
   <Card.Header>Header</Card.Header>
   <Card.Body>
@@ -83,7 +101,7 @@ export default function OurAlumni() {
     
   </Card.Body>
 </Card></Col>
-    <Col md={true}><Card border='light' style={{ width: '18rem',margin:'auto',marginBottom:'5vh' }}>
+    <Col md={true}><Card border='dark' style={{ width: '18rem',margin:'auto',marginBottom:'5vh' }}>
   <Card.Img variant="top" src="/randomguy.jpg" />
   <Card.Header>Header</Card.Header>
   <Card.Body>
