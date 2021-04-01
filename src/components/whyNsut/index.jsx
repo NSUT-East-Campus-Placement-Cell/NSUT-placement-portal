@@ -30,7 +30,6 @@ const WhyNSUT = () => {
   </Carousel.Item>
     </Carousel>
        <PastRecruiters/>
-       <br/>
         <OurAlumni/>
         <br/>
         <Footer/>
