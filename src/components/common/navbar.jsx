@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import {Navbar, Nav} from 'react-bootstrap'
 import { NavLink } from 'react-router-dom'
+
 
 
 const NavBar = () => <Navbar bg="light" expand="lg" className='navbar-nsut' sticky="top">
@@ -23,42 +24,48 @@ const NavBar = () => <Navbar bg="light" expand="lg" className='navbar-nsut' stic
           exact
           to="/"
           activeStyle={{color: "#17404e"}}
-          className='nav-link'>
+          className='nav-link'
+          onClick={() =>window.scrollTo(0,0)}>
           HOME
         </NavLink>
         <NavLink
           exact
           to="/about-us"
           activeStyle={{color: "#17404e"}}
-          className='nav-link'>
+          className='nav-link'
+          onClick={() =>window.scrollTo(0,0)}>
           ABOUT US
         </NavLink>
         <NavLink
           exact
           to="/why-nsut"
           activeStyle={{color: "#17404e"}}
-          className='nav-link'>
+          className='nav-link'
+          onClick={() =>window.scrollTo(0,0)}>
           WHY NSUT?
         </NavLink>
         <NavLink
           exact
           to="/process"
           activeStyle={{color: "#17404e"}}
-          className='nav-link'>
+          className='nav-link'
+          onClick={() =>window.scrollTo(0,0)}>
           PROCESS
         </NavLink>
         <NavLink
           exact
           to="/downloads"
           activeStyle={{color: "#17404e"}}
-          className='nav-link'>
+          className='nav-link'
+          onClick={() =>window.scrollTo(0,0)}>
           DOWNLOADS
         </NavLink>
         <NavLink
           exact
           to="/contact-us"
           activeStyle={{color: "#17404e"}}
-          className='nav-link'>
+          className='nav-link'
+          onClick={() =>window.scrollTo(0,0)}>
           CONTACT US
         </NavLink>
      
