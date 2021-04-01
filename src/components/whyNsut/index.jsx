@@ -18,7 +18,6 @@ const WhyNSUT = () => {
           <h1>PAST RECRUITERS</h1>
         </div>
        <PastRecruiters/>
-       <br/>
         <OurAlumni/>
         <br/>
         <Footer/>
