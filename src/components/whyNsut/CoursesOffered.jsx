@@ -1,6 +1,6 @@
 import React from 'react'
 import {Chrono} from 'react-chrono'
-import Carousel from 'react-bootstrap/Carousel'
+
 export default function CoursesOffered() {
 //   const items = [
 //      {
@@ -37,30 +37,11 @@ export default function CoursesOffered() {
 // ];
 
   return (
-    <div>
-      <Carousel controls={false} indicators={false}>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="/college.png"
-      alt="First slide"
-      style={{height:'45vh',objectFit:'cover'}}
-    />
-    <Carousel.Caption>
-      <h3>COURSES OFFERED</h3>
-    </Carousel.Caption>
-  </Carousel.Item>
-    </Carousel>
-    {/* <div>
-    <img
-      className="d-block w-100"
-      src="/college.jpg"
-      alt="First slide"
-      style={{height:'45vh',objectFit:'cover'}}
-    />
-    <h2>COURSES OFFERED</h2>
-    </div> */}
-      <Chrono 
+      <div>
+        <div className='banner courses-offered' >
+          <h1>COURSES OFFERED </h1>
+        </div>
+      <Chrono items={items} 
       mode="VERTICAL"
       theme={
         {primary:"#17404e",

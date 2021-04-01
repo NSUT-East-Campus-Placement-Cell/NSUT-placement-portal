@@ -5,30 +5,18 @@ import CoursesOffered from './CoursesOffered'
 import Societies from './Societies'
 import OurAlumni from './OurAlumni'
 import PastRecruiters from './PastRecruiters'
-import Carousel from 'react-bootstrap/Carousel'
+
 const WhyNSUT = () => {
-    return ( <div>
+    return ( <div className='why-nsut'> 
 
         <Navbar/>
-        {/* <div style={{backgroundColor:"black"}}> */}
-        
-    
-       
+
+      
         <CoursesOffered/>
         <br/>
-        <Carousel controls={false} indicators={false}>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="/college.png"
-      alt="First slide"
-      style={{height:'45vh',objectFit:'cover'}}
-    />
-    <Carousel.Caption>
-      <h3>PAST RECRUITERS</h3>
-    </Carousel.Caption>
-  </Carousel.Item>
-    </Carousel>
+        <div className='banner past-recruiters' >
+          <h1>PAST RECRUITERS</h1>
+        </div>
        <PastRecruiters/>
         <OurAlumni/>
         <br/>

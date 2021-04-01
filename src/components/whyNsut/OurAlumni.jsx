@@ -4,29 +4,16 @@ import Card from 'react-bootstrap/Card'
 import Col from 'react-bootstrap/Col'
 import { Container } from 'react-bootstrap';
 import {Row} from 'react-bootstrap'
-import Carousel from 'react-bootstrap/Carousel'
+
 
 
 export default function OurAlumni() {
   return (
     <div>
     
-  <Carousel controls={false} indicators={false}>
-  <Carousel.Item >
-  <div>
-    <img
-      className="d-block w-100"
-      src="/alumni.jpg"
-      alt="First slide"
-      style={{height:'50vh',objectFit:'cover'}}
-    />
-    </div>
-    
-    <Carousel.Caption>
-      <h3>OUR ALUMNI</h3>
-    </Carousel.Caption>
-  </Carousel.Item>
-    </Carousel>
+      <div className='banner our-alumni' >
+            <h1>OUR ALUMNI</h1>
+      </div>
     
     
 <Container style={{marginTop:'5vh'}}>

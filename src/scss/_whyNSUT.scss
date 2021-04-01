@@ -1,2 +1,40 @@
 .why-nsut {
+	.banner {
+		&::after {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 50%;
+			transform: translateX(-50%);
+			border-width: 15px;
+			border-style: solid;
+			border-color: #fff transparent transparent transparent;
+		}
+		position: relative;
+		// margin: 1rem 0;
+		// min-height: 100%;
+		height: 45vh;
+		background: url(http://placekitten.com/1920/1080);
+		background-size: cover;
+		box-shadow: inset 0 0 0 2000px rgba(23, 64, 78, 0.81);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		h1 {
+			color: white;
+			font-size: 2rem;
+			text-align: center;
+		}
+
+		&.courses-offered {
+			background: url(http://placekitten.com/1280/768);
+		}
+		&.past-recruiters {
+			background: url(http://placekitten.com/1500/900);
+		}
+		&.our-alumni {
+			background: url(http://placekitten.com/1680/1280);
+		}
+	}
 }
