@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import {Navbar, Nav} from 'react-bootstrap'
 import { NavLink } from 'react-router-dom'
+
 
 
 const NavBar = () => <Navbar bg="light" expand="lg" className='navbar-nsut' sticky="top">
