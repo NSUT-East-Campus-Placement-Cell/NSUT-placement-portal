@@ -1,0 +1,19 @@
+.blank_nav{
+  height: 80px;
+  background-color: #f8f8f8;
+}
+
+.wrapper {
+  overflow: hidden;
+  position: relative;
+  background : rgba(23,64,78,0.41) url(./images/bg.jpg);
+}
+
+.content {
+  color:aliceblue;
+}
+
+p{
+  text-align : justify;
+  font-size : 0.8rem;
+}
