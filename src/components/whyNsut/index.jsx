@@ -21,6 +21,9 @@ const WhyNSUT = () => {
        <br/>
         <OurAlumni/>
         <br/>
+  
+        <Societies/>
+        <br/>
         <Footer/>
 
 
