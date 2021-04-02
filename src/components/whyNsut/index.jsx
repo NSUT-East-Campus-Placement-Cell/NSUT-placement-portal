@@ -20,6 +20,9 @@ const WhyNSUT = () => {
        <PastRecruiters/>
         <OurAlumni/>
         <br/>
+  
+        <Societies/>
+        <br/>
         <Footer/>
 
 
