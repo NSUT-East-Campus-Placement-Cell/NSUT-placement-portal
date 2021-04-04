@@ -29,12 +29,49 @@
 
 		&.courses-offered {
 			background: url(http://placekitten.com/1280/768);
+			background-size: cover;
 		}
 		&.past-recruiters {
 			background: url(http://placekitten.com/1500/900);
+			background-size: cover;
 		}
 		&.our-alumni {
 			background: url(http://placekitten.com/1680/1280);
+			background-size: cover;
 		}
+		&.our-societies {
+			background: url(http://placekitten.com/1680/1280);
+			background-size: cover;
+		}
+	}
+
+	.societies,
+	.alumni {
+		.desc {
+			text-align: center;
+			margin: 2rem auto;
+			font-size: 1rem;
+		}
+
+		.card-img-top {
+			height: 200px;
+			object-fit: cover;
+		}
+
+		.card-header {
+			font-weight: bold;
+			text-align: center;
+			text-transform: uppercase;
+			font-size: 1.2rem;
+		}
+	}
+
+	.card {
+		border: none;
+		// box-shadow: 0 0 5px rgba(214, 215, 216, 0.3);
+		border-radius: 4px;
+		background-color: rgba(0, 0, 0, 0.05);
+		justify-content: end;
+		min-height: 700px;
 	}
 }
