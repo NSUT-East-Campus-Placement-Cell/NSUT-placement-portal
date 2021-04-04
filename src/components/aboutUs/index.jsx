@@ -1,10 +1,12 @@
 import React from 'react';
-import './about_utils/about.css';
-
+import Navbar from '../common/navbar'
+import Footer from '../common/footer'
+import {Carousel, Button}from 'react-bootstrap'
 
 const AboutUs = () => {
-    return (  <div>
-        <div className="blank_nav" />
+    return (  <div className="about-us">
+        <Navbar />
+
         {/* about nsut first section */}
         <section className="wrapper">
         <div className="container px-5">
@@ -37,38 +39,49 @@ const AboutUs = () => {
                 <br />
             </div>
             <div className="col-12">
-                <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
-                <div className="carousel-inner">
-                    <div className="carousel-item active">
-                    <img src="about_utils/images/aboutslider/001.jpg" className="d-block w-100" alt="..." />
-                    </div>
-                    <div className="carousel-item">
-                    <img src="about_utils/images/aboutslider/002.jpg" className="d-block w-100" alt="..." />
-                    </div>
-                    <div className="carousel-item">
-                    <img src="about_utils/images/aboutslider/003.jpg" className="d-block w-100" alt="..." />
-                    </div>
-                    <div className="carousel-item">
-                    <img src="about_utils/images/aboutslider/004.jpg" className="d-block w-100" alt="..." />
-                    </div>
-                    <div className="carousel-item">
-                    <img src="about_utils/images/aboutslider/5.jpg" className="d-block w-100" alt="..." />
-                    </div>
-                </div>
-                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true" />
-                    <span className="visually-hidden">Previous</span>
-                </button>
-                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true" />
-                    <span className="visually-hidden">Next</span>
-                </button>
-                </div>
+            <Carousel>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src="about_utils/images/aboutslider/001.jpg"
+                    alt="First slide"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src="about_utils/images/aboutslider/002.jpg"
+                    alt="Second slide"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src="about_utils/images/aboutslider/003.jpg"
+                    alt="Third slide"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src="about_utils/images/aboutslider/004.jpg"
+                    alt="Third slide"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src="about_utils/images/aboutslider/5.jpg"
+                    alt="Third slide"
+                    />
+                </Carousel.Item>
+            </Carousel>  
             </div>
             </div>
         </div>
         </section>
         {/* end section */}
+        <Footer />
     </div>
      );
 }
