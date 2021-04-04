@@ -30,7 +30,7 @@ const AboutUs = () => {
         {/* about nsut end */}
         {/* second section */}
         <section className='placement-cell'>
-        <div className="container p-5">
+        <div className="container">
             <div className="row">
             <div className="col-12">
                 <h2>About The Placement Cell</h2>
