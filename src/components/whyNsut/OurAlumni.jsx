@@ -9,7 +9,7 @@ import {Row} from 'react-bootstrap'
 
 export default function OurAlumni() {
   return (
-    <div>
+    <div className='alumni'>
     
       <div className='banner our-alumni' >
             <h1>OUR ALUMNI</h1>
