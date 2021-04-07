@@ -6,7 +6,7 @@ import { Container } from 'react-bootstrap';
 import {Row} from 'react-bootstrap'
 export default function Societies() {
     return(<div className='societies'>
-            <div className='banner our-societies' >
+            <div className='banner our-societies' style={{backgroundImage: `url("/why-nsut/societies.jpg")` }}>
               <h1>OUR SOCIETIES</h1>
             </div>
           <Container style={{marginTop:'5vh'}}>

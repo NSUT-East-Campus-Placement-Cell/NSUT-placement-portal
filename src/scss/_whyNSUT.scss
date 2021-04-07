@@ -28,20 +28,20 @@
 		}
 
 		&.courses-offered {
-			background: url(http://placekitten.com/1280/768);
 			background-size: cover;
+			background-position: center;
 		}
 		&.past-recruiters {
-			background: url(http://placekitten.com/1500/900);
 			background-size: cover;
+			background-position: center;
 		}
 		&.our-alumni {
-			background: url(http://placekitten.com/1680/1280);
 			background-size: cover;
+			background-position: top;
 		}
 		&.our-societies {
-			background: url(http://placekitten.com/1680/1280);
 			background-size: cover;
+			background-position: bottom;
 		}
 	}
 
@@ -68,7 +68,6 @@
 
 	.card {
 		border: none;
-		// box-shadow: 0 0 5px rgba(214, 215, 216, 0.3);
 		border-radius: 4px;
 		background-color: rgba(0, 0, 0, 0.05);
 		justify-content: end;
