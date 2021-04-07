@@ -8,7 +8,7 @@ const AboutUs = () => {
         <Navbar />
 
         {/* about nsut first section */}
-        <section className="wrapper">
+        <section className="wrapper" style={{backgroundImage:  `url("/campus/1.jpeg")` }}>
         <div className="container">
             <div className="row px-2">
             <div className="col-12 col-md-6 py-3 content">
@@ -22,7 +22,7 @@ const AboutUs = () => {
                 </ul>
             </div>
             <div className="col-12 col-md-6 ">
-                <img src="http://placekitten.com/1000/500" alt="Placement Process" className="img-fluid" />
+                <img src="/campus/1.jpeg" alt="Placement Process" className="img-fluid" />
             </div>
             </div>
         </div>

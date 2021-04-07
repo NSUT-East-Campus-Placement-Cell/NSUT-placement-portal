@@ -7,26 +7,22 @@ import OurAlumni from './OurAlumni'
 import PastRecruiters from './PastRecruiters'
 
 const WhyNSUT = () => {
-    return ( <div className='why-nsut'> 
-
+    return ( 
+    
+      <div className='why-nsut'> 
         <Navbar/>
 
       
         <CoursesOffered/>
         <br/>
-        <div className='banner past-recruiters' >
-          <h1>PAST RECRUITERS</h1>
-        </div>
-       <PastRecruiters/>
+        <PastRecruiters/>
         <OurAlumni/>
         <br/>
-  
+
         <Societies/>
         <br/>
         <Footer/>
-
-
-    </div>);
+      </div>);
    
     
 }

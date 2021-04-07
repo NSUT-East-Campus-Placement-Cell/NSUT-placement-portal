@@ -4,7 +4,7 @@ import {Chrono} from 'react-chrono'
 export default function CoursesOffered() {
   return (
       <div>
-        <div className='banner courses-offered' >
+        <div className='banner courses-offered' style={{backgroundImage: `url("/why-nsut/courses.jpg")` }}>
           <h1>COURSES OFFERED </h1>
         </div>
       <Chrono 

@@ -6,7 +6,7 @@ import {Table} from 'react-bootstrap'
 const Downloads = () => {
     return  (<div className='downloads'>
         <Navbar />
-        <div className='heading'>
+        <div className='heading' style={{backgroundImage:  `url("/downloads/bg.jpg")` }}>
             <h1>Downloads</h1>
         </div>
         <div className="content container">

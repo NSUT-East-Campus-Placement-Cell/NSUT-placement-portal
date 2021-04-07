@@ -44,7 +44,7 @@ const Home = () => {
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
-        <section className='aboutNSUT container-fluid'>
+        <section className='aboutNSUT container-fluid' style={{backgroundImage:  `url("/campus/1.jpeg")` }}>
             <div className='container'>
                 <div className='text'>
                     <h1>Our Campus</h1>
