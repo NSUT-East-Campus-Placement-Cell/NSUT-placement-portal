@@ -11,36 +11,30 @@ const Home = () => {
                 <img
                 className="d-block w-100"
                 src="/campus/2.jpeg"
-                alt="Second slide"
+                alt="First image"
                 />
 
                 <Carousel.Caption>
-                {/* <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
                 className="d-block w-100"
                 src="/campus/3.jpeg"
-                alt="Third slide"
+                alt="Second image"
                 />
 
                 <Carousel.Caption>
-                {/* <h3>Third slide label</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
                 className="d-block w-100"
                 src="/campus/4.jpeg"
-                alt="Third slide"
+                alt="Third image"
                 />
 
                 <Carousel.Caption>
-                {/* <h3>Third slide label</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
@@ -48,8 +42,6 @@ const Home = () => {
             <div className='container'>
                 <div className='text'>
                     <h1>Our Campus</h1>
-                    {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ad fugit voluptate at laboriosam error deleniti sequi esse molestiae numquam sit saepe amet, culpa, temporibus quisquam? Architecto laudantium a totam, eius perferendis quam cum ad autem suscipit nam optio obcaecati tempora soluta aut eveniet esse? Molestiae quidem exercitationem culpa eaque?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ad fugit voluptate at laboriosam error deleniti sequi esse molestiae numquam sit saepe amet, culpa, temporibus quisquam? Architecto laudantium a totam, eius perferendis quam cum ad autem suscipit nam optio obcaecati tempora soluta aut eveniet esse? Molestiae quidem exercitationem culpa eaque?</p> */}
                     <p>NSUT East Campus ( Formerly AIACTR) is a top-grade engineering institute functioning from its Campus located at Geeta Colony, East Delhi. The Institute has an area of 7.8 acres with modern lab facilities and a green ambiance all around. Its objective is to meet the growing demand for professionals in the fields of engineering and technology.</p>
                     {/* <p>The foundation Stone of this campus was laid by the Honorable Chief Minister of Delhi Mrs. Sheila Dixit on 24th May 2006. The campus was built in a record time of 18 months by the Public Works Department (PWD). The students have access to all facilities like Centralized Air-Conditioned Labs, well-equipped Library, Student Study Center, RO System, lush green playground, and Rain harvesting system.</p> */}
                     <p>The Campus is built on a strong foundation of knowledge and values. It includes highly qualified and distinguished faculty to motivate and challenge students. The college offers not just a degree; it offers an experience and a way of life! With ample technical and cultural clubs, students work towards a holistic development.</p>
@@ -60,7 +52,7 @@ const Home = () => {
                 <img
                     // className="d-block"
                     src="/campus/1.jpeg"
-                    alt="Third slide"
+                    alt="Campus image"
                     />
                 </div>
             </div>
@@ -70,11 +62,7 @@ const Home = () => {
             <div className='f-row'>
                 <div className='f-col'>
                     <div className="image-wrapper">
-                    <img
-                   
-                        src="/icons/courses.svg"
-                        alt="Third slide"
-                    />
+                    <img src="/icons/courses.svg" />
                     </div>
                     
                     <div>
@@ -86,10 +74,7 @@ const Home = () => {
                 </div>
                 <div className='f-col'>
                     <div className="image-wrapper">
-                        <img
-                        src="/icons/alumni.svg"
-                        alt="Third slide"
-                        />
+                        <img src="/icons/alumni.svg" />
                     </div>
                     
                      <div>
@@ -103,10 +88,7 @@ const Home = () => {
             <div className='f-row'>
                 <div className='f-col'>
                     <div className="image-wrapper">
-                    <img
-                        src="/icons/societies.svg"
-                        alt="Third slide"
-                    />
+                    <img src="/icons/societies.svg" />
                     </div>
                     
                     <div>
@@ -121,10 +103,7 @@ const Home = () => {
                 </div>
                 <div className='f-col'>
                     <div className="image-wrapper">
-                    <img
-                        src="/icons/recruiters.svg"
-                        alt="Third slide"
-                    />
+                    <img src="/icons/recruiters.svg" />
                      
                     </div>
                     <div>
