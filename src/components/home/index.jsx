@@ -10,36 +10,37 @@ const Home = () => {
             <Carousel.Item>
                 <img
                 className="d-block w-100"
-                src="http://placekitten.com/1920/720"
-                alt="First slide"
-                />
-                <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-                <img
-                className="d-block w-100"
-                src="http://placekitten.com/1920/1080"
+                src="/campus/2.jpeg"
                 alt="Second slide"
                 />
 
                 <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                {/* <h3>Second slide label</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
                 className="d-block w-100"
-                src="http://placekitten.com/1920/1080"
+                src="/campus/3.jpeg"
                 alt="Third slide"
                 />
 
                 <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                {/* <h3>Third slide label</h3>
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                className="d-block w-100"
+                src="/campus/4.jpeg"
+                alt="Third slide"
+                />
+
+                <Carousel.Caption>
+                {/* <h3>Third slide label</h3>
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
@@ -58,7 +59,7 @@ const Home = () => {
                 <div className='about-img'>
                 <img
                     // className="d-block"
-                    src="http://placekitten.com/300/500"
+                    src="/campus/1.jpeg"
                     alt="Third slide"
                     />
                 </div>
