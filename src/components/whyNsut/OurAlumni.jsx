@@ -11,7 +11,7 @@ export default function OurAlumni() {
   return (
     <div className='alumni'>
     
-      <div className='banner our-alumni' >
+      <div className='banner our-alumni' style={{backgroundImage: `url("/why-nsut/alumni.jpg")` }}>
             <h1>OUR ALUMNI</h1>
       </div>
     
