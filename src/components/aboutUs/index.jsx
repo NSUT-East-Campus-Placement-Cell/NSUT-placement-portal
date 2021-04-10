@@ -13,13 +13,14 @@ const AboutUs = () => {
             <div className="row px-2">
             <div className="col-12 col-md-6 py-3 content">
                 <h2>About NSUT East Campus </h2>
-                <p>Lectus vestibulum mattis ullamcorper velit. Senectus et netus et malesuada fames ac. Eget aliquet nibh praesent tristique magna. Duis ultricies lacus sed turpis tincidunt id aliquet. Purus ut faucibus pulvinar elementum integer enim neque. Dui sapien eget mi proin sed libero enim sed faucibus. Id semper risus in hendrerit gravida rutrum quisque. Cursus vitae congue mauris rhoncus aenean vel elit.</p>
-                <p>Faucibus purus in massa tempor nec feugiat nisl pretium fusce. Vel fringilla est ullamcorper eget nulla facilisi. Arcu bibendum at varius vel. Orci ac auctor augue mauris augue neque gravida in. Eget nulla facilisi etiam dignissim diam quis enim. Libero justo laoreet sit amet cursus. Diam sit amet nisl suscipit adipiscing bibendum est ultricies.</p>
-                <ul style={{listStyle: 'disc'}}>
+                <p>NSUT East Campus ( Formerly AIACTR) is a top-grade engineering institute functioning from its Campus located at Geeta Colony, East Delhi. The Institute has an area of 7.8 acres with modern lab facilities and a green ambiance all around.</p>
+                <p>The Campus is built on a strong foundation of knowledge and values. It includes highly qualified and distinguished faculty to motivate and challenge students. With ample technical and cultural clubs, students work towards a holistic development.</p>
+                
+                {/* <ul style={{listStyle: 'disc'}}>
                 <li style={{fontSize: '16px', color: 'aliceblue', lineHeight: '25px'}}>Malesuada proin libero nunc consequat interdum varius sit amet.</li>
                 <li style={{fontSize: '16px', color: 'aliceblue', lineHeight: '25px'}}>Natoque penatibus et magnis dis parturient montes nascetur ridiculus mus.</li>
                 <li style={{fontSize: '16px', color: 'aliceblue', lineHeight: '25px'}}>Neque vitae tempus quam pellentesque.</li>
-                </ul>
+                </ul> */}
             </div>
             <div className="col-12 col-md-6 ">
                 <img src="/campus/1.jpeg" alt="Placement Process" className="img-fluid" />
