@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from '../common/navbar'
 import Footer from '../common/footer'
-import {Table} from 'react-bootstrap'
 
 const Downloads = () => {
     return  (<div className='downloads'>
@@ -11,7 +10,7 @@ const Downloads = () => {
         </div>
         <div className="content container">
             <h2>Check our <span style={{color: '#27ae60' }}>Documents</span></h2>
-            <div className="downloads">
+            <div className="download-list">
                 <div className="section">
                     <div className="table-heading">
                         <h2>Brochure</h2>
