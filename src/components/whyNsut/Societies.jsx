@@ -1,11 +1,13 @@
 import React from 'react'
-import Carousel from 'react-bootstrap/Carousel'
-import Card from 'react-bootstrap/Card'
-import Col from 'react-bootstrap/Col'
-import { Container } from 'react-bootstrap';
-import {Row} from 'react-bootstrap'
+import {Row, Card, Container, Col} from 'react-bootstrap';
+import NavBar from './../common/navbar';
+import Footer from './../common/footer';
+
 export default function Societies() {
-    return(<div className='societies'>
+    return(
+    <div>
+      <NavBar />
+      <div className='societies'>
             <div className='banner our-societies' style={{backgroundImage: `url("/why-nsut/societies.jpg")` }}>
               <h1>OUR SOCIETIES</h1>
             </div>
@@ -14,7 +16,7 @@ export default function Societies() {
             <p className='desc'>NSUT East Campus thrives on culture and technical events. Various societies spearhead the events and make them a lasting experience for everyone. Many Technical Clubs and Non- Technical Clubs have been actively involved on the campus - recruiting new students, organizing workshops, and participating in various competitions across various disciplines. NSUT east campus is a place to learn and interact and the College societies are just our flag bearer in that direction. We promote an awareness of cultural diversity on campus.</p>
 
             <Row>
-            <Col md={true}><Card border='dark' style={{ width: '18rem',margin:'auto',marginBottom:'5vh'}}>
+            <Col md={true}><Card border='dark' style={{ marginBottom:'5vh'}}>
               <Card.Img variant="top" src="/societies/robotics.jpg"/>
               <Card.Header>SR-AIT</Card.Header>
               <Card.Body>
@@ -27,7 +29,7 @@ export default function Societies() {
               </Card.Body>
               </Card>
             </Col>
-            <Col md={true}><Card border='dark' style={{ width: '18rem',margin:'auto',marginBottom:'5vh' }}>
+            <Col md={true}><Card border='dark' style={{ marginBottom:'5vh' }}>
             <Card.Img variant="top" src="/societies/coding.jpg" />
             <Card.Header>Coding</Card.Header>
             <Card.Body>
@@ -38,7 +40,7 @@ export default function Societies() {
             
             </Card.Body>
             </Card></Col>
-            <Col md={true}><Card border='dark' style={{ width: '18rem',margin:'auto',marginBottom:'5vh' }}>
+            <Col md={true}><Card border='dark' style={{ marginBottom:'5vh' }}>
             <Card.Img variant="top" src="/societies/dance.jpg" />
             <Card.Header>IMMORTALS</Card.Header>
             <Card.Body>
@@ -54,7 +56,7 @@ export default function Societies() {
           </Row>
 
           <Row>
-              <Col md={true}><Card border='dark' style={{ width: '18rem',margin:'auto',marginBottom:'5vh' }}>
+              <Col md={true}><Card border='dark' style={{ marginBottom:'5vh' }}>
               <Card.Img variant="top" src="/societies/music.jpg" />
               <Card.Header>SAARANG</Card.Header>
               <Card.Body>
@@ -68,7 +70,7 @@ export default function Societies() {
 
           
 
-              <Col md={true}><Card border='dark' style={{ width: '18rem',margin:'auto',marginBottom:'5vh' }}>
+              <Col md={true}><Card border='dark' style={{ marginBottom:'5vh' }}>
               <Card.Img variant="top" src="/societies/theatre.jpg" />
               <Card.Header>Hunkaar</Card.Header>
               <Card.Body>
@@ -80,7 +82,7 @@ export default function Societies() {
               </Card.Body>
               </Card></Col>
 
-              <Col md={true}><Card border='dark' style={{ width: '18rem',margin:'auto',marginBottom:'5vh' }}>
+              <Col md={true}><Card border='dark' style={{ marginBottom:'5vh' }}>
               <Card.Img variant="top" src="/societies/photography.jpg" />
               <Card.Header>Constant Vision</Card.Header>
               <Card.Body>
@@ -94,7 +96,7 @@ export default function Societies() {
 
             </Row>
             <Row>
-            <Col md={true}><Card border='dark' style={{ width: '18rem',margin:'auto',marginBottom:'5vh' }}>
+            <Col md={true}><Card border='dark' style={{ marginBottom:'5vh' }}>
             <Card.Img variant="top" 
             src="/societies/literary.jpg" 
             />
@@ -109,7 +111,7 @@ export default function Societies() {
             </Card.Body>
           </Card></Col>
 
-              <Col md={true}><Card border='dark' style={{ width: '18rem',margin:'auto',marginBottom:'5vh' }}>
+              <Col md={true}><Card border='dark' style={{ marginBottom:'5vh' }}>
               <Card.Img variant="top" src="/societies/fine_art.jpg" />
               <Card.Header>Fine Arts</Card.Header>
               <Card.Body>
@@ -120,7 +122,7 @@ export default function Societies() {
                   
               </Card.Body>
               </Card></Col>
-              <Col md={true}><Card border='dark' style={{ width: '18rem',margin:'auto',marginBottom:'5vh' }}>
+              <Col md={true}><Card border='dark' style={{ marginBottom:'5vh' }}>
               <Card.Img variant="top" src="/societies/fashion.jpg" />
               <Card.Header>Fashion</Card.Header>
               <Card.Body>
@@ -132,6 +134,11 @@ export default function Societies() {
               </Card.Body>
               </Card></Col>
             </Row>
-  <br/>
-  </Container></div>)
+        <br/>
+        </Container>
+      </div>
+      <Footer />
+
+    </div>
+    )
 }

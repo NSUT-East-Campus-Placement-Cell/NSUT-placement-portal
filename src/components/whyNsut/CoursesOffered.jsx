@@ -1,12 +1,13 @@
 import React from 'react'
-import Container from 'react-bootstrap/Container'
-import Card from 'react-bootstrap/Card'
-import Row from 'react-bootstrap/Row'
-import Jumbotron from 'react-bootstrap/Jumbotron'
-import Col from 'react-bootstrap/Col'
+import {Row, Card, Container, Col} from 'react-bootstrap';
+import NavBar from './../common/navbar';
+import Footer from './../common/footer';
+
 export default function CoursesOffered() {
   return (
-      <div className='courses'>
+      <div>
+        <NavBar/>
+        <div className='courses'>
         <div className='banner courses-offered' style={{backgroundImage: `url("/why-nsut/courses.jpg")` }}>
           <h1>COURSES OFFERED</h1>
         </div>
@@ -21,7 +22,7 @@ export default function CoursesOffered() {
                     Computer Science and Engineering (Big Data Analytics) (CSDA)
                   </Card.Title>
                   <Card.Subtitle>
-                    B.Tech (Batch 2024 Onwards)
+                    B.Tech (Admission Batch 2020 Onwards - NSUT)
                   </Card.Subtitle>
                   <Card.Text>
                     <p>Computer Science is one of the most popular branches of engineering and is rapidly growing day by day. It helps us to solve challenging problems using computation and is the solution to every problem in the world at present and in future too. In Computer Science Engineering, Students shall also study and specialize in Big Data Analytics.</p>
@@ -38,12 +39,13 @@ export default function CoursesOffered() {
                     Electronics and Communication Engineering (Artificial Intelligence & Machine Learning) (ECAM)
                   </Card.Title>
                   <Card.Subtitle>
-                    B.Tech (Batch 2024 Onwards)
+                    B.Tech (Admission Batch 2020 Onwards - NSUT)
                   </Card.Subtitle>
                   <Card.Text>
                     <p>Electronics and Communication Engineering are the two most specific entities of modern day technology. This course shall empower students to provide innovative ideas and solution to problems in the world in the Electronic and Communication Industry. The course gives you a thorough knowledge within various disciplines coming under Electronics and Communication such as Embedded System, Internet of Things (IOT), Robotics etc.</p>
                     <p>Within this course, students shall be specialized in Artificial Intelligence and Machine Learning. This Course provides an opportunity to the students to learn the insights to the most important technologies driving the modern world namely Artificial Intelligence and machine learning. Students will be given a 360 degree exposure to various Hardware and Software platforms that are used in Industry for AI and IoT development.</p>
                   </Card.Text>
+
                 </Card.Body>
               </Card>
             </Col>
@@ -56,7 +58,7 @@ export default function CoursesOffered() {
                     Computer Science Engineering (CSE)
                   </Card.Title>
                   <Card.Subtitle>
-                    B.Tech (Upto Batch 2023)
+                    B.Tech (Admission upto 2019 - GGSIPU)
                   </Card.Subtitle>
                   <Card.Text>
                     <p>True to our commitment of providing industry based technology knowledge our college provides 4 year B.Tech programme in computer science which focuses on preparing the next generation technically sound and skilled engineers. CSE wraps around topics like computation, algorithm analysis,computer hardware and software among all other tech based topics.Over the past few years a humongous amount of increased inclination of students is evident towards this field of science and our college tries to provide resources to come up with the best possible way to enhance the students skills in this sector.</p>
@@ -72,7 +74,7 @@ export default function CoursesOffered() {
                     Electronics and Communication Engineering (ECE)
                   </Card.Title>
                   <Card.Subtitle>
-                    B.Tech (Upto Batch 2023)
+                    B.Tech (Admission upto 2019 - GGSIPU)
                   </Card.Subtitle>
                   <Card.Text>
                     <p>There is 4 year B.Tech programme for ECE course in our college. This course primarily covers topics like Electronics basic components and their uses,Electronics circuit design, Micro processor and micro-controller uses, Signals characteristics and function,Sensors, Embedded system among other tech based topics. It prepares the interested students for the fields like computer hardware, the aerospace industry,computer software, nano-electronic chips, photonics, nano-engineering, robotics, solar energy harvesting among a vast amount of career options as a further enhancement of this course.</p>
@@ -117,5 +119,8 @@ export default function CoursesOffered() {
           </Row>
         </Container>
     </div>
+        <Footer />
+      </div>
+     
   )
 }
