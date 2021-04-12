@@ -1,0 +1,150 @@
+.administration,
+.current-team {
+	.heading {
+		&::after {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 50%;
+			transform: translateX(-50%);
+			border-width: 15px;
+			border-style: solid;
+			border-color: #fff transparent transparent transparent;
+		}
+		position: relative;
+		// margin: 1rem 0;
+		min-height: 100%;
+		// background: url(http://placekitten.com/1920/1080);
+		background-position: center;
+		background-size: cover;
+		box-shadow: inset 0 0 0 2000px rgba(23, 64, 78, 0.81);
+		padding: 4rem 0;
+		// justify-self: ;
+
+		h1 {
+			color: white;
+			font-size: 2.5rem;
+			text-align: center;
+		}
+	}
+
+	.list {
+		margin: 2rem auto;
+
+		.row {
+			display: flex;
+			justify-content: center;
+		}
+	}
+}
+
+.administration {
+	.list {
+		.box {
+			background-color: #fff;
+			height: 400px;
+			width: 250px;
+			position: relative;
+			box-shadow: 0 0 30px rgba(214, 215, 216, 0.3);
+			border-radius: 4px;
+			display: flex;
+			// justify-content: space-between;
+			flex-direction: column;
+			margin: 1rem;
+
+			img {
+				width: inherit;
+				min-height: 300px;
+				object-fit: cover;
+				border-top-left-radius: 4px;
+				border-top-right-radius: 4px;
+				object-position: top;
+			}
+
+			.member-content {
+				padding: 1rem 0.5rem;
+
+				h1 {
+					// margin-top: 0.8rem;
+					font-size: 1.2rem;
+					text-align: center;
+					color: #424242;
+				}
+				h4 {
+					font-size: 0.9rem;
+					text-align: center;
+					color: #888;
+					font-weight: 400;
+					// margin-bottom: 1.5rem;
+				}
+				h6 {
+					font-size: 0.8rem;
+					text-align: center;
+					color: #888;
+					font-weight: 400;
+				}
+			}
+		}
+	}
+}
+
+.current-team {
+	.list {
+		h1 {
+			text-align: center;
+			font-size: 1.5rem;
+		}
+		.box {
+			background-color: #fff;
+			width: 250px;
+			position: relative;
+			box-shadow: 0 0 30px rgba(214, 215, 216, 0.3);
+			border-radius: 4px;
+			display: flex;
+			flex-direction: column;
+			margin: 1rem;
+			// padding: 1rem;
+
+			img {
+				border-top-left-radius: 4px;
+				border-top-right-radius: 4px;
+				height: 300px;
+				object-fit: cover;
+			}
+
+			.content {
+				padding: 1rem;
+
+				h1 {
+					font-size: 1.3rem;
+					text-align: center;
+					color: #424242;
+					margin-bottom: 1rem;
+				}
+
+				.contact {
+					display: flex;
+					justify-content: center;
+					align-items: flex-end;
+					div {
+						background-color: #eee;
+						border-radius: 50%;
+						// padding: 1rem;
+						height: 40px;
+						width: 40px;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						margin: 0 0.5rem;
+						img {
+							// margin: 0rem 0.4rem;
+							// width: 15px;
+							height: 15px;
+							border-radius: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+}
