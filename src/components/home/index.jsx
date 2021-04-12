@@ -86,11 +86,17 @@ const Home = () => {
 						<div>
 							<h2>Courses Offered</h2>
 							<p>
-								Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-								Incidunt, iusto pariatur quia consequuntur quod illo deserunt.
-								Et maxime amet illum ea illo alias ab, ut corporis, beatae
-								delectus natus quas? Delectus, sequi aperiam! Delectus a ducimus
-								quisquam. Velit, laudantium reprehenderit?
+								NSUT East Campus offers courses at the undergraduate and
+								Graduate level in streams of Engineering and Technology.
+							</p>
+							<p>
+								The institute is well known for offering traditional B.Tech and
+								M.Tech Programs in domains of Computer Science and Electronics.
+							</p>
+							<p>
+								NSUT East Campus has now introduced innovative and popular
+								Undergraduate courses such as CSDA, ECAM and Graduate courses in
+								Information Security and Digital Communication.
 							</p>
 							<a className='learn'>Learn more</a>
 						</div>
@@ -127,23 +133,12 @@ const Home = () => {
 								Culture is intricately interwoven into life at NSUT EAST CAMPUS.
 								Extracurricular activities provide a setting to become involved
 								and to interact with other students, thus leading to increased
-								learning and enhanced development.
+								learning and inclusive development.
 							</p>
 							<p>
-								Here where people lead a busy life, the name 'Tech Club' itself
-								brings a breeze of happiness, relaxation, pleasure, and many
-								joyous moments to members.
-							</p>
-							<p>
-								Ranging from coding, machine learning to robotics it is truly a
-								place for leisure and entertainment beyond their hectic
-								schedules.
-							</p>
-							<p>
-								Along with that Theater, Dance, Music, Fashion also provides a
-								place for students to look out for their talent in these fields
-								as well as promoting an awareness of cultural diversity on
-								campus.
+								Here, when people lead a busy life, the multifarious clubs bring
+								a breeze of happiness, relaxation, pleasure, and many joyous
+								moments.
 							</p>
 							<a className='learn'>Learn more</a>
 						</div>
@@ -155,11 +150,13 @@ const Home = () => {
 						<div>
 							<h2>Past Recruiters</h2>
 							<p>
-								Facebook, Epic systems, Microsoft, Google, PayTM, Flipkart,
-								Tekion India Adobe, Amazon, Intel,Pentester Academy, Société
-								Générale, Synopsys, STMicroelectronics, Ciena, Dunnhumby, VNL,
-								Samsung, Freescale, D.E. Shaw, C-DOT, Unisys, Engineers India
-								Limited (EIL), Qualcomm{' '}
+								The batch profile consists of students from computer science and
+								electronics background. Students at NSUT East Campus throughout
+								their graduation and Post-Graduation indulge into various skill
+								development programs, internships, training, and cultural as
+								well as technical contests. Students have continued to receive
+								placement offers from various reputed companies from different
+								sectors of the industry.
 							</p>
 							<a className='learn'>Learn more</a>
 						</div>

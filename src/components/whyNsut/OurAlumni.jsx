@@ -14,6 +14,15 @@ export default function OurAlumni() {
 					<h1>OUR ALUMNI</h1>
 				</div>
 				<Container style={{ marginTop: '5vh' }}>
+					<p className='desc'>
+						From Flipkart to STMicroelectronics, our alumni have marked their
+						presence in the innovative world. At NSUT East Campus, we're
+						defining our future while still being committed to excellence. Our
+						mission shapes our vision. But our alumni make that vision a
+						reality. They ensure our students’ success and help us forge a bold
+						new chapter in our extraordinary story creating a better world
+						together.
+					</p>
 					<Row>
 						<Col md={true}>
 							<Card
@@ -23,7 +32,6 @@ export default function OurAlumni() {
 								<Card.Header>Header</Card.Header>
 								<Card.Body>
 									<Card.Title>Card Title</Card.Title>
-
 									<Card.Text>
 										Some quick example text to build on the card title and make
 										up the bulk of the card's content.
