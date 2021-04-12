@@ -1,40 +1,121 @@
-.why-nsut {
-	.banner {
-		&::after {
-			content: '';
-			position: absolute;
-			top: 0;
-			left: 50%;
-			transform: translateX(-50%);
-			border-width: 15px;
-			border-style: solid;
-			border-color: #fff transparent transparent transparent;
-		}
-		position: relative;
-		// margin: 1rem 0;
-		// min-height: 100%;
-		height: 45vh;
-		background: url(http://placekitten.com/1920/1080);
+.banner {
+	&::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		border-width: 15px;
+		border-style: solid;
+		border-color: #fff transparent transparent transparent;
+	}
+	position: relative;
+	// margin: 1rem 0;
+	// min-height: 100%;
+	height: 45vh;
+	background: url(http://placekitten.com/1920/1080);
+	background-size: cover;
+	box-shadow: inset 0 0 0 2000px rgba(23, 64, 78, 0.81);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	h1 {
+		color: white;
+		font-size: 2rem;
+		text-align: center;
+	}
+
+	&.courses-offered {
 		background-size: cover;
-		box-shadow: inset 0 0 0 2000px rgba(23, 64, 78, 0.81);
-		display: flex;
-		justify-content: center;
-		align-items: center;
+		background-position: center;
+	}
+	&.past-recruiters {
+		background-size: cover;
+		background-position: center;
+	}
+	&.our-alumni {
+		background-size: cover;
+		background-position: top;
+	}
+	&.our-societies {
+		background-size: cover;
+		background-position: bottom;
+	}
+}
 
-		h1 {
-			color: white;
-			font-size: 2rem;
-			text-align: center;
+.societies,
+.alumni {
+	.desc {
+		text-align: center;
+		margin: 2rem auto;
+		font-size: 1rem;
+	}
+
+	.card-img-top {
+		height: 200px;
+		object-fit: cover;
+	}
+
+	.card-header {
+		font-weight: bold;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 1.2rem;
+	}
+	.card {
+		border: none;
+		border-radius: 4px;
+		background-color: rgba(0, 0, 0, 0.05);
+		justify-content: end;
+		min-height: 700px;
+	}
+}
+
+.courses {
+	.heading {
+		text-align: center;
+		margin: 2rem 0;
+	}
+	.desc {
+		text-align: center;
+		margin: 2rem auto;
+		font-size: 1rem;
+	}
+
+	.card {
+		&.xl {
+			min-height: 630px;
+		}
+		&.lg {
+			min-height: 500px;
+		}
+		&.md {
+			min-height: 350px;
+		}
+		flex-basis: 50%;
+		height: fit-content;
+		margin: 1rem auto;
+		text-align: center;
+		border: none;
+		border-radius: 4px;
+		background-color: rgba(0, 0, 0, 0.05);
+		justify-content: end;
+
+		@media (max-width: 992px) {
+			height: fit-content;
+			min-height: auto;
 		}
 
-		&.courses-offered {
-			background: url(http://placekitten.com/1280/768);
+		.card-title {
+			margin-top: 1rem;
+			font-size: 1.3rem;
 		}
-		&.past-recruiters {
-			background: url(http://placekitten.com/1500/900);
-		}
-		&.our-alumni {
-			background: url(http://placekitten.com/1680/1280);
+
+		.card-subtitle {
+			margin: 1.5rem 0;
+			color: #424242;
+			font-size: 1.05rem;
 		}
 	}
 }

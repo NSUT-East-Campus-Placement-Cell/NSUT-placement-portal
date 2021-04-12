@@ -17,7 +17,7 @@ const ContactUs = () => {
 
     return (<div className='contact-us'>
         <Navbar />
-        <div className='heading'>
+        <div className='heading' style={{backgroundImage: `url("/contact-us/bg.jpg")` }}>
             <h1>Contact Us</h1>
         </div>
         <div className='content container' >
@@ -33,7 +33,7 @@ const ContactUs = () => {
             </div>
             <div className='call'>
                 <img src="/icons/call.svg" alt="" />
-                <h2>Call us</h2>
+                <h2>Call Us</h2>
                 <p>+91 XXXXXXXXXX</p>
                 <p>+91 XXXXXXXXXX</p>
             </div>
