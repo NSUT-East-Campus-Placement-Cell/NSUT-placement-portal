@@ -31,16 +31,32 @@ export default function Societies() {
             </Col>
             <Col md={true}><Card border='dark' style={{ marginBottom:'5vh' }}>
             <Card.Img variant="top" src="/societies/coding.jpg" />
-            <Card.Header>Coding</Card.Header>
+            <Card.Header>ScriptX</Card.Header>
             <Card.Body>
-            <Card.Title>Coding Club</Card.Title>
+            <Card.Title>Software Development Club</Card.Title>
             <Card.Text>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error aliquam ducimus quam modi pariatur quia ab et nulla voluptatum totam? Maiores, ipsa ad, mollitia, expedita earum eos itaque quia voluptas tempore pariatur quas sapiente ullam facere impedit aspernatur sunt fugit vitae delectus assumenda reprehenderit. Blanditiis eveniet tenetur voluptatum fugit quisquam.
+            If you are into computers, "ScriptX" is the club for you! It's open for all students of the college. You don't need to be tech geeks to join this club. All you need is creativity to build and passion to continue. Members get together to research and collaborate on projects. The objective of the club is to provide a platform for all coding lovers to get together and build something interesting. The club plans various training sessions to learn and contests to apply the jargon!
             </Card.Text>
             
             </Card.Body>
             </Card></Col>
             <Col md={true}><Card border='dark' style={{ marginBottom:'5vh' }}>
+            <Card.Img variant="top" src="/societies/dance.jpg" />
+            <Card.Header>Web.js</Card.Header>
+            <Card.Body>
+            <Card.Title>Web Development Club</Card.Title>
+            <Card.Text>
+            The objective of the Website Development club is to promote innovation and creativity in the website development domain. The aim is to establish a platform for like-minded people who wish to grow professionally in the field of web development.  In addition to training workshops and seminars, the itinerary includes a number of contests to bring the talent on stage and help students increase their visibility. Students guided by their seniors and faculty guides work towards being the webmaster!!
+            </Card.Text>
+            
+            </Card.Body>
+            </Card></Col>
+          
+              
+          </Row>
+
+          <Row>
+          <Col md={true}><Card border='dark' style={{ marginBottom:'5vh' }}>
             <Card.Img variant="top" src="/societies/dance.jpg" />
             <Card.Header>IMMORTALS</Card.Header>
             <Card.Body>
@@ -51,11 +67,7 @@ export default function Societies() {
             
             </Card.Body>
             </Card></Col>
-          
-              
-          </Row>
 
-          <Row>
               <Col md={true}><Card border='dark' style={{ marginBottom:'5vh' }}>
               <Card.Img variant="top" src="/societies/music.jpg" />
               <Card.Header>SAARANG</Card.Header>
@@ -82,7 +94,11 @@ export default function Societies() {
               </Card.Body>
               </Card></Col>
 
-              <Col md={true}><Card border='dark' style={{ marginBottom:'5vh' }}>
+
+
+            </Row>
+            <Row>
+            <Col md={true}><Card border='dark' style={{ marginBottom:'5vh' }}>
               <Card.Img variant="top" src="/societies/photography.jpg" />
               <Card.Header>Constant Vision</Card.Header>
               <Card.Body>
@@ -93,9 +109,6 @@ export default function Societies() {
               
               </Card.Body>
               </Card></Col>
-
-            </Row>
-            <Row>
             <Col md={true}><Card border='dark' style={{ marginBottom:'5vh' }}>
             <Card.Img variant="top" 
             src="/societies/literary.jpg" 
@@ -118,17 +131,6 @@ export default function Societies() {
                   <Card.Title>Art Club</Card.Title>
                   <Card.Text>
                     The club is dedicated to promoting all aspects of fine arts. It conducts activities to stimulate and encourage artistic endeavors among students. Art is not limited to just paints and brushes but can be produced out of anything.
-                  </Card.Text>
-                  
-              </Card.Body>
-              </Card></Col>
-              <Col md={true}><Card border='dark' style={{ marginBottom:'5vh' }}>
-              <Card.Img variant="top" src="/societies/fashion.jpg" />
-              <Card.Header>Fashion</Card.Header>
-              <Card.Body>
-                  <Card.Title>Fashion Club</Card.Title>
-                  <Card.Text>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse alias labore, quibusdam eveniet magni doloremque atque nulla ipsam sit numquam harum tempore nisi porro debitis nostrum hic quia a dolor ducimus rem? Quidem eligendi possimus veritatis quos, repellendus molestias alias. Quae quisquam est perspiciatis dolorem! Dignissimos quis odio deserunt dolores.
                   </Card.Text>
                   
               </Card.Body>
