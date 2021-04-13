@@ -12,8 +12,8 @@ export default function CoursesOffered() {
           <h1>COURSES OFFERED</h1>
         </div>
         <Container style={{marginTop:'5vh'}}>
-          <p className='desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus optio aliquam sit assumenda ullam asperiores. Vel odio eaque atque laborum ipsam deleniti consequatur in dolorum tempore provident cum voluptas repellat, quis hic ipsum magni quaerat quidem maxime distinctio asperiores vero dolore modi odit? Enim neque, reprehenderit dolor voluptate perspiciatis incidunt!</p>
-          <h3 className='heading'>Graduate Courses</h3>
+          <p className='desc'></p>
+          <h3 className='heading'>Graduate Courses</h3><p>NSUT East Campus offers courses at the undergraduate and Graduate level in streams of Engineering and Technology.The institute is well known for offering traditional B.Tech and M.Tech Programs in domains of Computer Science and Electronics. NSUT East Campus has now introduced innovative and popular Undergraduate courses such as CSDA, ECAM and Graduate courses in Information Security and Digital Communication.</p>
           <Row>
             <Col lg={true}>
               <Card className='xl'>
