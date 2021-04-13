@@ -10,7 +10,7 @@ export default function PastRecruiters() {
       <div className='banner past-recruiters' style={{backgroundImage: `url("/why-nsut/recruitment.jpg")` }}>
         <h1>PAST RECRUITERS</h1>
       </div>
-      <Container>
+      <Container style={{marginTop:'5vh'}}>
       <div class='recruiters' style={{marginTop:"10vh",marginBottom:'7vh'}}>
         <center>
           <p>The batch profile consists of students from computer science and electronics background. Students at NSUT East Campus throughout their graduation and Post-Graduation indulge into various skill development programs, internships, training, and cultural as well as technical contests. Students have continued to receive placement offers from various reputed companies from different sectors of the industry.</p>

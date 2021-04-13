@@ -14,9 +14,9 @@ export default function OurAlumni() {
               <h1>OUR ALUMNI</h1>
         </div>
         <Container style={{marginTop:'5vh'}}>
-          <Row>
           <p className='desc'>From Flipkart to STMicroelectronics, our alumni have marked their presence in the innovative world. At NSUT East Campus, we're defining our future while still being committed to excellence. Our mission shapes our vision. But our alumni make that vision a reality. They ensure our students’ success and help us forge a bold new chapter in our extraordinary story creating a better world together.</p>
-            <Col md={true}><Card border='dark' style={{ width: '18rem',margin:'auto',marginBottom:'5vh' }}>
+          <Row>
+         <Col md={true}><Card border='dark' style={{ width: '18rem',margin:'auto',marginBottom:'5vh' }}>
           <Card.Img variant="top" 
           src="/randomguy.jpg" 
           />
