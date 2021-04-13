@@ -10,7 +10,7 @@ export default function CoursesOffered() {
 			<div className='courses'>
 				<div
 					className='banner courses-offered'
-					style={{ backgroundImage: `url("/why-nsut/courses.jpg")` }}>
+					style={{ backgroundImage: `url("/why-nsut/courses.png")` }}>
 					<h1>COURSES OFFERED</h1>
 				</div>
 				<Container style={{ marginTop: '5vh' }}>

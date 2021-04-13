@@ -11,7 +11,7 @@ const AboutUs = () => {
 			{/* about nsut first section */}
 			<section
 				className='wrapper'
-				style={{ backgroundImage: `url("/campus/1.jpeg")` }}>
+				style={{ backgroundImage: `url("/campus/1.png")` }}>
 				<div className='container'>
 					<div className='row px-2'>
 						<div className='col-12 col-md-6 py-3 content'>
@@ -37,7 +37,7 @@ const AboutUs = () => {
 						</div>
 						<div className='col-12 col-md-6 '>
 							<img
-								src='/campus/1.jpeg'
+								src='/campus/1.png'
 								alt='Placement Process'
 								className='img-fluid'
 							/>

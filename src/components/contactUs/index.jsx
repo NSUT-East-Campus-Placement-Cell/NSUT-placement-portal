@@ -18,7 +18,7 @@ const ContactUs = () => {
 			<Navbar />
 			<div
 				className='heading'
-				style={{ backgroundImage: `url("/contact-us/bg.jpg")` }}>
+				style={{ backgroundImage: `url("/contact-us/bg.png")` }}>
 				<h1>Contact Us</h1>
 			</div>
 			<div className='content container'>

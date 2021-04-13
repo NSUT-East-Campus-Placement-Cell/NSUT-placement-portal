@@ -8,7 +8,7 @@ const Downloads = () => {
 			<Navbar />
 			<div
 				className='heading'
-				style={{ backgroundImage: `url("/downloads/bg.jpg")` }}>
+				style={{ backgroundImage: `url("/downloads/bg.png")` }}>
 				<h1>Downloads</h1>
 			</div>
 			<div className='content container'>

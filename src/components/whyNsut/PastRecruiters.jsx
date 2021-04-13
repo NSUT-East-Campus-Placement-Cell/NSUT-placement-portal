@@ -9,7 +9,7 @@ export default function PastRecruiters() {
 			<NavBar />
 			<div
 				className='banner past-recruiters'
-				style={{ backgroundImage: `url("/why-nsut/recruitment.jpg")` }}>
+				style={{ backgroundImage: `url("/why-nsut/recruitment.png")` }}>
 				<h1>PAST RECRUITERS</h1>
 			</div>
 			<Container style={{ marginTop: '5vh' }}>

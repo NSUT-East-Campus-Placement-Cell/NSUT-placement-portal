@@ -11,7 +11,7 @@ const Home = () => {
 				<Carousel.Item>
 					<img
 						className='d-block w-100'
-						src='/campus/2.jpeg'
+						src='/campus/2.png'
 						alt='First image'
 					/>
 
@@ -20,7 +20,7 @@ const Home = () => {
 				<Carousel.Item>
 					<img
 						className='d-block w-100'
-						src='/campus/3.jpeg'
+						src='/campus/3.png'
 						alt='Second image'
 					/>
 
@@ -29,7 +29,16 @@ const Home = () => {
 				<Carousel.Item>
 					<img
 						className='d-block w-100'
-						src='/campus/4.jpeg'
+						src='/campus/4.png'
+						alt='Third image'
+					/>
+
+					<Carousel.Caption></Carousel.Caption>
+				</Carousel.Item>
+				<Carousel.Item>
+					<img
+						className='d-block w-100'
+						src='/campus/5.png'
 						alt='Third image'
 					/>
 
@@ -38,7 +47,7 @@ const Home = () => {
 			</Carousel>
 			<section
 				className='aboutNSUT container-fluid'
-				style={{ backgroundImage: `url("/campus/1.jpeg")` }}>
+				style={{ backgroundImage: `url("/campus/1.png")` }}>
 				<div className='container'>
 					<div className='text'>
 						<h1>Our Campus</h1>
@@ -69,7 +78,7 @@ const Home = () => {
 					<div className='about-img'>
 						<img
 							// className="d-block"
-							src='/campus/1.jpeg'
+							src='/campus/1.png'
 							alt='Campus image'
 						/>
 					</div>

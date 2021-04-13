@@ -10,7 +10,7 @@ export default function OurAlumni() {
 			<div className='alumni'>
 				<div
 					className='banner our-alumni'
-					style={{ backgroundImage: `url("/why-nsut/alumni.jpg")` }}>
+					style={{ backgroundImage: `url("/why-nsut/alumni.png")` }}>
 					<h1>OUR ALUMNI</h1>
 				</div>
 				<Container style={{ marginTop: '5vh' }}>

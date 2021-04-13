@@ -8,7 +8,7 @@ const CurrentTeam = () => {
 			<NavBar />
 			<div
 				className='heading'
-				style={{ backgroundImage: `url("/downloads/bg.jpg")` }}>
+				style={{ backgroundImage: `url("/team/bg.png")` }}>
 				<h1>Student Coordinators</h1>
 			</div>
 			<div className='list container'>

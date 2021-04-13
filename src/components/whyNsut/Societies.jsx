@@ -10,7 +10,7 @@ export default function Societies() {
 			<div className='societies'>
 				<div
 					className='banner our-societies'
-					style={{ backgroundImage: `url("/why-nsut/societies.jpg")` }}>
+					style={{ backgroundImage: `url("/why-nsut/societies.png")` }}>
 					<h1>OUR SOCIETIES</h1>
 				</div>
 				<Container style={{ marginTop: '5vh' }}>
@@ -177,7 +177,7 @@ export default function Societies() {
 
 						<Col md={true}>
 							<Card border='dark' style={{ marginBottom: '5vh' }}>
-								<Card.Img variant='top' src='/societies/fine_art.jpg' />
+								<Card.Img variant='top' src='/societies/fine_art.png' />
 								<Card.Header>Fine Arts</Card.Header>
 								<Card.Body>
 									<Card.Title>Art Club</Card.Title>
