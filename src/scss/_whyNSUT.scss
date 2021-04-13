@@ -122,6 +122,14 @@
 
 .recruiters{
 	p{
-		margin: 1rem 125px;
+		margin: 1rem 9rem;
 	}
+}
+
+@media screen and (max-width:800px){
+	.recruiters{
+		p{
+			margin: 1rem 3rem;
+		}
+	}	
 }
