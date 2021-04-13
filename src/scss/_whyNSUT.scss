@@ -75,11 +75,11 @@
 .courses {
 	.heading {
 		text-align: center;
-		margin: 2rem 0;
+		margin: 1rem 0 1rem 0;
 	}
 	.desc {
 		text-align: center;
-		margin: 2rem auto;
+		margin: 2rem auto 1rem auto;
 		font-size: 1rem;
 	}
 
@@ -120,3 +120,8 @@
 	}
 }
 
+.recruiters{
+	p{
+		margin: 1rem 125px;
+	}
+}
