@@ -53,8 +53,9 @@
 	}
 
 	.card-img-top {
-		height: 200px;
+		height: 250px;
 		object-fit: cover;
+		object-position: top;
 	}
 
 	.card-header {
@@ -68,18 +69,19 @@
 		border-radius: 4px;
 		background-color: rgba(0, 0, 0, 0.05);
 		justify-content: end;
-		min-height: 700px;
+		min-height: 850px;
+
 	}
 }
 
 .courses {
 	.heading {
 		text-align: center;
-		margin: 2rem 0;
+		margin: 1rem 0 1rem 0;
 	}
 	.desc {
 		text-align: center;
-		margin: 2rem auto;
+		margin: 2rem auto 1rem auto;
 		font-size: 1rem;
 	}
 
@@ -117,5 +119,13 @@
 			color: #424242;
 			font-size: 1.05rem;
 		}
+	}
+}
+
+.recruiters {
+	p {
+		text-align: center;
+		margin: 2rem auto;
+		font-size: 1rem;
 	}
 }
