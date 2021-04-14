@@ -53,8 +53,8 @@
 	}
 
 	.card-img-top {
-		height: 200px;
-		object-fit: cover;
+		height: 370px;
+		// object-fit: cover;
 	}
 
 	.card-header {
@@ -68,7 +68,8 @@
 		border-radius: 4px;
 		background-color: rgba(0, 0, 0, 0.05);
 		justify-content: end;
-		min-height: 700px;
+		min-height: 750px;
+
 	}
 }
 
