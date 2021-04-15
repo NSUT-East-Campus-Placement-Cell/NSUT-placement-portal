@@ -18,7 +18,7 @@ export default function OurAlumni() {
           <Row>
          <Col md={true}><Card border='dark' style={{ width: '18rem',margin:'auto',marginBottom:'5vh' }}>
           <Card.Img variant="top" 
-          src="/LokenderSarna.jpg" 
+          src="/why-nsut/alumnipics/LokenderSarna.jpg" 
           />
           <Card.Header>Lokender Sarna</Card.Header>
           <Card.Body>
@@ -32,12 +32,12 @@ export default function OurAlumni() {
         </Card></Col>
 
         <Col md={true}><Card border='dark' style={{ width: '18rem',margin:'auto',marginBottom:'5vh' }}>
-          <Card.Img variant="top" src="/Sankalp.jpg" />
+          <Card.Img variant="top" src="/why-nsut/alumnipics/Sankalp.jpg" />
           <Card.Header>Sankalp Singh Gaharwar</Card.Header>
           <Card.Body>
             <Card.Title>Masters Student, North Carolina State University</Card.Title>
             <Card.Text>
-            “AIACT&R gave me the confidence to always face the world with a smile on my face and unwavering faith in my abilities.
+            “AIACTR gave me the confidence to always face the world with a smile on my face and unwavering faith in my abilities.
              My four year journey can be summed up in a single word- “Evolution”. As a part of the AIACTR family, I met wonderful people who helped me become a more well-rounded personality and this enabled me to tap into avenues of my potential that I felt were beyond my reach when I joined this institution. Being in the college team is my fondest memory of college. Along the way, I formed bonds with my teammates that I will cherish for life.”
             </Card.Text>
             
@@ -45,7 +45,7 @@ export default function OurAlumni() {
         </Card></Col>
           
             <Col md={true}><Card border='dark' style={{ width: '18rem',margin:'auto',marginBottom:'5vh'}}>
-          <Card.Img variant="top" src="/Taramishra.jpg"/>
+          <Card.Img variant="top" src="/why-nsut/alumnipics/Taramishra.jpg"/>
           <Card.Header>Tara Mishra</Card.Header>
           <Card.Body>
             <Card.Title>RF Design Engineer (Vedang Radio  ),DRDO</Card.Title>
@@ -64,7 +64,7 @@ export default function OurAlumni() {
           <Row>
 
             <Col md={true}><Card border='dark' style={{ width: '18rem',margin:'auto',marginBottom:'5vh' }}>
-          <Card.Img variant="top" src="/Abhijeet.jpg" />
+          <Card.Img variant="top" src="/why-nsut/alumnipics/Abhijeet.jpg" />
           <Card.Header>Abhijeet Pathak</Card.Header>
           <Card.Body>
             <Card.Title>CEO, Mekvahan</Card.Title>
@@ -75,7 +75,7 @@ export default function OurAlumni() {
           </Card.Body>
         </Card></Col>
         <Col md={true}><Card border='dark' style={{ width: '18rem',margin:'auto',marginBottom:'5vh' }}>
-          <Card.Img variant="top" src="/Ishika.jpg" />
+          <Card.Img variant="top" src="/why-nsut/alumnipics/Ishika.jpg" />
           <Card.Header>Ishika Sharma</Card.Header>
           <Card.Body>
             <Card.Title>Samsung Research Institute</Card.Title>
@@ -87,7 +87,7 @@ export default function OurAlumni() {
         </Card></Col>
         
             <Col md={true}><Card border='dark' style={{ width: '18rem',margin:'auto',marginBottom:'5vh' }}>
-          <Card.Img variant="top" src="/Sourav.jpg" />
+          <Card.Img variant="top" src="/why-nsut/alumnipics/Sourav.jpg" />
           <Card.Header>Sourav Chandra</Card.Header>
           <Card.Body style={{height:'440px'}}>
             <Card.Title>Founder and CEO, Pyza Labs</Card.Title>
