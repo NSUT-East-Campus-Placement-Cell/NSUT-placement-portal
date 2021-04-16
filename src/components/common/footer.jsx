@@ -10,7 +10,7 @@ const Footer = () => {
 			/>
 
 			<div className='footer-content'>
-				<h1>Training and Placement Cell</h1>
+				<h1>Training and Placement</h1>
 				<h2>Netaji Subhas University of Technology East Campus</h2>
 				<div className='footer-links'>
 					<div
