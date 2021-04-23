@@ -21,15 +21,17 @@ const Downloads = () => {
 							<h2>Brochure</h2>
 						</div>
 						<div className='list'>
-							<a href='/randomguy.jpg' download='brochure'>
+							<a
+								href='/downloads/placement-brochure.pdf'
+								download='placement-brochure-2020-2021'>
+								Placement Brochure 2020-21
+							</a>
+							{/* <a href='' download='brochure'>
 								Lorem, ipsum.
 							</a>
 							<a href='' download='brochure'>
 								Lorem, ipsum.
-							</a>
-							<a href='' download='brochure'>
-								Lorem, ipsum.
-							</a>
+							</a> */}
 						</div>
 					</div>
 					<div className='section'>
@@ -37,16 +39,11 @@ const Downloads = () => {
 							<h2>Training Documents</h2>
 						</div>
 						<div className='list'>
-							<a href='' download='brochure'>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
-								reiciendis voluptates ratione.
-							</a>
-							<a href='' download='brochure'>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-								repellat, saepe quis molestiae voluptates laudantium sit!
-							</a>
-							<a href='' download='brochure'>
-								Lorem ipsum dolor sit amet consectetur adipisicing
+							<a
+								href=''
+								// download=''
+							>
+								Campus Intern Form (CIF)
 							</a>
 						</div>
 					</div>
@@ -55,16 +52,25 @@ const Downloads = () => {
 							<h2>Placement Documents</h2>
 						</div>
 						<div className='list'>
-							<a href='' download='brochure'>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
-								reiciendis voluptates ratione.
+							<a
+								href='/downloads/invitation-doc.pdf'
+								download='invitation-doc-2020-2021'>
+								Company Invitation Document
 							</a>
-							<a href='' download='brochure'>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-								repellat, saepe quis molestiae voluptates laudantium sit!
+							<a
+								href='/downloads/campus-recruitment-form.docx'
+								download='campus-recruitment-form'>
+								Campus Recrutment Form (CRF)
 							</a>
-							<a href='' download='brochure'>
-								Lorem ipsum dolor sit amet consectetur adipisicing
+							<a
+								href='/downloads/placement-policy.pdf'
+								download='placement-policy-2020-2021'>
+								Placement Policy 2020-2021
+							</a>
+							<a
+								href='/downloads/undertaking-opt-out.pdf'
+								download='undertaking-opt-out-2020-2021'>
+								Undertaking for students who wish to opt out for placements
 							</a>
 						</div>
 					</div>

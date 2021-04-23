@@ -1,12 +1,18 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom';
 
 const Footer = () => {
+	const history = useHistory();
 	return (
 		<div className='nsut-footer'>
 			<img
 				src='/nsut_logo.png'
 				className='d-inline-block align-top'
 				alt='NSUT logo'
+				onClick={() => {
+					history.push('/');
+					window.scrollTo(0, 0);
+				}}
 			/>
 
 			<div className='footer-content'>
