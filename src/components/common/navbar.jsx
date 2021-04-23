@@ -15,8 +15,8 @@ const NavBar = () => {
 				/>
 			</Navbar.Brand>
 			<div className='title'>
-				<div style={{ fontSize: 16 }}>TRAINING AND PLACEMENT</div>
-				<div style={{ fontSize: 14 }}>NSUT EAST CAMPUS</div>
+				<div className='heading1'>TRAINING AND PLACEMENT</div>
+				<div className='sub-heading'>NSUT EAST CAMPUS</div>
 			</div>
 			<Navbar.Toggle aria-controls='basic-navbar-nav' />
 			<Navbar.Collapse id='basic-navbar-nav'>

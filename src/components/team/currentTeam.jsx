@@ -16,7 +16,7 @@ const CurrentTeam = () => {
 				<h1>OVERALL COORDINATORS</h1>
 				<div className='row'>
 					<Coordinator
-						imageURL='/team/students/jaspreet-kaur.jpg'
+						imageURL='/team/students/jaspreet-kaur.jpeg'
 						name='Jaspreet Kaur'
 						mobile='9205248912'
 						email='jaspreet.kaur.e21@nsut.ac.in'
@@ -48,10 +48,22 @@ const CurrentTeam = () => {
 				<h1>COORDINATORS</h1>
 				<div className='row'>
 					<Coordinator
+						imageURL='/team/students/nikhil-tiwari.jpg'
+						name='Nikhil Tiwari'
+						email='nikhil.tiwari.e21@nsut.ac.in'
+						linkedinURL='https://www.linkedin.com/in/nikhil-tiwari-917590153/'
+					/>
+					<Coordinator
 						imageURL='/team/students/sargam-verma.jpeg'
 						name='Sargam Verma'
 						email='sargam.verma.e21@nsut.ac.in'
 						linkedinURL='https://www.linkedin.com/in/sargam-verma-3aa9ba172/'
+					/>
+					<Coordinator
+						imageURL='/team/students/akash.jpg'
+						name='Akash'
+						email='akash.e21@nsut.ac.in'
+						linkedinURL='https://www.linkedin.com/in/akash-saini-08173a1a9/'
 					/>
 					<Coordinator
 						imageURL='/team/students/vishal-siray.jpg'
@@ -66,10 +78,22 @@ const CurrentTeam = () => {
 						linkedinURL='https://www.linkedin.com/in/yashkar-jha-83095a177/'
 					/>
 					<Coordinator
+						imageURL='/team/students/arpit-pathak.jpg'
+						name='Arpit Pathak'
+						email='arpit.pathak.e21@nsut.ac.in'
+						linkedinURL='https://www.linkedin.com/in/arpit-pathak-226b91195/'
+					/>
+					<Coordinator
 						imageURL='/team/students/gaurav-singh.jpg'
 						name='Gourav Singh'
 						email='gourav.singh.e21@nsut.ac.in'
 						linkedinURL='https://www.linkedin.com/in/gourav-singh-b8a95b1a3/'
+					/>
+					<Coordinator
+						imageURL='/team/students/adarsh-sharma.jpg'
+						name='Adarsh Sharma'
+						email='adarsh.sharma.e21@nsut.ac.in'
+						// linkedinURL='https://www.linkedin.com/in/gourav-singh-b8a95b1a3/'
 					/>
 					<Coordinator
 						imageURL='/team/students/shilpa-panwar.jpg'
@@ -90,6 +114,18 @@ const CurrentTeam = () => {
 						linkedinURL='http://www.linkedin.com/in/samyak-jain-9621571a4'
 					/>
 					<Coordinator
+						imageURL='/team/students/mayank-sharma.jpg'
+						name='Mayank Sharma'
+						email='mayank.sharma.e21@nsut.ac.in'
+						linkedinURL='https://www.linkedin.com/in/mayank-sharma-87182974'
+					/>
+					<Coordinator
+						imageURL='/team/students/vicky-pandey.jpg'
+						name='Vicky Pandey'
+						email='vicky.pandey.e21@nsut.ac.in'
+						linkedinURL='https://www.linkedin.com/in/vicky-pandey-0276841a5'
+					/>
+					<Coordinator
 						imageURL='/team/students/deepali-verma.png'
 						name='Deepali Verma'
 						email='deepali.verma.e21@nsut.ac.in'
@@ -108,6 +144,12 @@ const CurrentTeam = () => {
 						linkedinURL='https://www.linkedin.com/in/aditya-r-7325a8120'
 					/>
 					<Coordinator
+						imageURL='/team/students/kajal-jha.jpg'
+						name='Kajal Jha'
+						email='kajal.jha.e21@gmail.com'
+						linkedinURL='https://www.linkedin.com/in/kajal-jha-5122641a1/'
+					/>
+					<Coordinator
 						imageURL='/team/students/abhishek-yadav.jpg'
 						name='Abhishek Yadav'
 						email='abhishek.yadav.e21@nsut.ac.in'
@@ -118,6 +160,26 @@ const CurrentTeam = () => {
 						name='Karan Yadav'
 						email='karan.yadav.e21@nsut.ac.in'
 						linkedinURL='https://www.linkedin.com/in/karan-yadav-091367123'
+					/>
+					<Coordinator
+						imageURL='/team/students/riddika-grover.jpg'
+						name='Riddika Grover'
+						email='riddika.grover.e21@nsut.ac.in'
+						linkedinURL='http://linkedin.com/in/riddika-grover-2b41221b3'
+					/>
+					<Coordinator
+						imageURL='/team/students/anurag-tyagi.jpeg'
+						name='Anurag Tyagi'
+						email='anurag.tyagi4964@gmail.com'
+						linkedinURL='https://www.linkedin.com/in/anurag-tyagi-395425178/'
+					/>
+					<Coordinator
+						imageURL='/team/students/generic.png'
+						name='Nakul Sharma'
+					/>
+					<Coordinator
+						imageURL='/team/students/generic.png'
+						name='Rupinder Singh'
 					/>
 				</div>
 			</div>

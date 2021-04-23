@@ -50,8 +50,8 @@ const ContactUs = () => {
 				<div className='call'>
 					<img src='/icons/call.svg' alt='' />
 					<h2>Call Us</h2>
-					<p>+91 XXXXXXXXXX</p>
-					<p>+91 XXXXXXXXXX</p>
+					<a href='tel:+919205248912'>+91 9205248912</a>
+					<a href='tel:+919643679467'>+91 9643679467</a>
 				</div>
 				<div
 					className='linkedin'

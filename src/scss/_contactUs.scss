@@ -81,15 +81,26 @@
 				margin-left: 0;
 			}
 
+			&.call {
+				h2 {
+					margin-bottom: 1rem;
+				}
+				a {
+					text-decoration: none;
+					color: #777;
+					margin: 0;
+				}
+			}
+
 			&.email {
 				// flex-basis: 40%;
 				// flex-grow: 2;
 				h2 {
 					margin-bottom: 1rem;
 				}
-				p {
-					margin-bottom: 0.2rem;
-				}
+				// p {
+				// 	margin-bottom: 0.2rem;
+				// }
 			}
 
 			&.linkedin {
