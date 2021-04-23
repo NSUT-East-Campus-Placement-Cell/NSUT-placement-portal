@@ -28,7 +28,7 @@
 	}
 
 	.content {
-		margin: 2rem auto;
+		margin: 5rem auto;
 
 		h2 {
 			text-align: center;
@@ -60,6 +60,10 @@
 
 				.list {
 					padding: 1rem;
+					min-height: 200px;
+					// display: flex;
+					// justify-content: center;
+					// flex-direction: column;
 					a {
 						display: block;
 						text-align: center;

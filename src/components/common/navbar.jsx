@@ -1,13 +1,18 @@
 import React from 'react';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
-import { NavLink, useLocation } from 'react-router-dom';
+import { NavLink, useHistory, useLocation } from 'react-router-dom';
 
 const NavBar = () => {
 	const location = useLocation();
+	const history = useHistory();
 
 	return (
 		<Navbar bg='light' expand='lg' className='navbar-nsut' sticky='top'>
-			<Navbar.Brand href='/'>
+			<Navbar.Brand
+				onClick={() => {
+					history.push('/');
+					window.scrollTo(0, 0);
+				}}>
 				<img
 					src='/nsut_logo.png'
 					className='d-inline-block align-top'
@@ -15,8 +20,8 @@ const NavBar = () => {
 				/>
 			</Navbar.Brand>
 			<div className='title'>
-				<div style={{ fontSize: 16 }}>TRAINING AND PLACEMENT</div>
-				<div style={{ fontSize: 14 }}>NSUT EAST CAMPUS</div>
+				<div className='heading1'>TRAINING AND PLACEMENT</div>
+				<div className='sub-heading'>NSUT EAST CAMPUS</div>
 			</div>
 			<Navbar.Toggle aria-controls='basic-navbar-nav' />
 			<Navbar.Collapse id='basic-navbar-nav'>
