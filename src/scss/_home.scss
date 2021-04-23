@@ -50,7 +50,15 @@
 				p {
 					color: #a9a9a9;
 				}
-				.btn {
+				.redirect-btn {
+					&:hover {
+						background-color: #388e3c;
+					}
+					text-decoration: none;
+					color: #fff !important;
+					padding: 0.6rem 1rem;
+					background-color: #27ae60;
+					border-radius: 4px;
 				}
 			}
 			.about-img {

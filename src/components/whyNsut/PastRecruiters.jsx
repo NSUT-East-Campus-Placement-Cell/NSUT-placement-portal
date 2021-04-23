@@ -24,7 +24,10 @@ export default function PastRecruiters() {
 							placement & internship offers from various reputed companies from
 							different sectors of the industry.
 						</p>
-						<img src='/Companies.jpg' style={{ maxWidth: '90%' }} />
+						<img
+							src='/why-nsut/past-recruiters.png'
+							style={{ maxWidth: '100%' }}
+						/>
 					</center>
 				</div>
 			</Container>

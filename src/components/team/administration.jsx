@@ -14,7 +14,7 @@ const Administration = () => {
 			<div className='list container'>
 				<div className='row'>
 					<div className='box'>
-						<img src='https://placekitten.com/g/1000/800' alt='' />
+						<img src='/team/admin/prerna-gaur.jpg' alt='' />
 						<div className='member-content'>
 							<h1>Dr. Prerna Gaur</h1>
 							<h4>Director</h4>
@@ -22,7 +22,7 @@ const Administration = () => {
 						</div>
 					</div>
 					<div className='box'>
-						<img src='https://placekitten.com/g/1000/800' alt='' />
+						<img src='/team/admin/mps.jpg' alt='' />
 						<div className='member-content'>
 							<h1>Prof. M.P.S. Bhatia</h1>
 							<h4>Training & Placement Officer</h4>
@@ -48,7 +48,7 @@ const Administration = () => {
 						</div>
 					</div>
 					<div className='box'>
-						<img src='https://placekitten.com/g/1000/800' alt='' />
+						<img src='/team/admin/amita-jain.png' alt='' />
 						<div className='member-content'>
 							<h1>Dr. Amita Jain</h1>
 							<h4>Training & Placement Member</h4>

@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../common/navbar';
 import Footer from '../common/footer';
 import { Carousel, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
 	return (
@@ -11,7 +12,7 @@ const Home = () => {
 				<Carousel.Item>
 					<img
 						className='d-block w-100'
-						src='/campus/2.png'
+						src='/campus/3.png'
 						alt='First image'
 					/>
 
@@ -20,7 +21,7 @@ const Home = () => {
 				<Carousel.Item>
 					<img
 						className='d-block w-100'
-						src='/campus/3.png'
+						src='/campus/2.png'
 						alt='Second image'
 					/>
 
@@ -73,7 +74,13 @@ const Home = () => {
 							the field of Undergraduate and Postgraduate Engineering. NSUT EAST
 							CAMPUS presently offers Two B.Tech and four M.Tech programs.
 						</p>
-						<Button variant='success'>Learn more</Button>
+
+						<Link
+							to='/about-us'
+							onClick={() => window.scrollTo(0, 0)}
+							className='redirect-btn'>
+							Learn more
+						</Link>
 					</div>
 					<div className='about-img'>
 						<img
@@ -107,7 +114,13 @@ const Home = () => {
 								Undergraduate courses such as CSDA, ECAM and Graduate courses in
 								Information Security and Digital Communication.
 							</p>
-							<a className='learn'>Learn more</a>
+
+							<Link
+								to='/why-nsut/courses-offered'
+								onClick={() => window.scrollTo(0, 0)}
+								className='learn'>
+								Learn more
+							</Link>
 						</div>
 					</div>
 					<div className='f-col'>
@@ -126,7 +139,12 @@ const Home = () => {
 								help us forge a bold new chapter in our extraordinary story
 								creating a better world together.
 							</p>
-							<a className='learn'>Learn more</a>
+							<Link
+								to='/why-nsut/our-alumni'
+								onClick={() => window.scrollTo(0, 0)}
+								className='learn'>
+								Learn more
+							</Link>
 						</div>
 					</div>
 				</div>
@@ -149,7 +167,12 @@ const Home = () => {
 								a breeze of happiness, relaxation, pleasure, and many joyous
 								moments.
 							</p>
-							<a className='learn'>Learn more</a>
+							<Link
+								to='/why-nsut/our-societies'
+								onClick={() => window.scrollTo(0, 0)}
+								className='learn'>
+								Learn more
+							</Link>
 						</div>
 					</div>
 					<div className='f-col'>
@@ -167,7 +190,12 @@ const Home = () => {
 								placement & internship offers from various reputed companies
 								from different sectors of the industry.
 							</p>
-							<a className='learn'>Learn more</a>
+							<Link
+								to='/why-nsut/past-recruiters'
+								onClick={() => window.scrollTo(0, 0)}
+								className='learn'>
+								Learn more
+							</Link>
 						</div>
 					</div>
 				</div>

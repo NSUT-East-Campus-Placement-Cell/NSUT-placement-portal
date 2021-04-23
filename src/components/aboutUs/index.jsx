@@ -100,11 +100,11 @@ const AboutUs = () => {
 								<Carousel.Item>
 									<img
 										className='d-block w-100'
-										src='https://placekitten.com/1920/1080'
+										src='/about-us/placement-cell.jpg'
 										alt='First slide'
 									/>
 								</Carousel.Item>
-								<Carousel.Item>
+								{/* <Carousel.Item>
 									<img
 										className='d-block w-100'
 										src='https://placekitten.com/1920/1080'
@@ -131,7 +131,7 @@ const AboutUs = () => {
 										src='https://placekitten.com/1920/1080'
 										alt='Third slide'
 									/>
-								</Carousel.Item>
+								</Carousel.Item> */}
 							</Carousel>
 						</div>
 					</div>
