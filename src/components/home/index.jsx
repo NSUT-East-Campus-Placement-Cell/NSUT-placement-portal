@@ -29,7 +29,9 @@ const Home = () => {
 				<a href='https://www.kartikbhalla.dev' target='_blank' rel='noreferrer'>
 					www.kartikbhalla.dev
 				</a>
-				. Cheers!
+				.
+				<br />
+				Cheers!
 				<br />
 				<br />~ Kartik Bhalla, Batch 2018-2022, AIACT&R
 			</Alert>
