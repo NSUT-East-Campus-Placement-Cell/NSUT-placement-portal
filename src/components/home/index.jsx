@@ -1,13 +1,38 @@
 import React from 'react';
 import Navbar from '../common/navbar';
 import Footer from '../common/footer';
-import { Carousel, Button } from 'react-bootstrap';
+import { Carousel, Button, Alert } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
 	return (
 		<div className='home'>
 			<Navbar />
+			<Alert key={'warning'} variant={'warning'}>
+				<b>NOTE:</b> This website was built in 2021 by the Training & Placement
+				Coordinators of NSUT East Campus (formerly AIACT&R). This was intended
+				to be used as a Campus' Training & Placement Website that would have
+				been shared with the companies and recruiters along with the Placement
+				Brochure. However, considering the management, it was never approved and
+				had been sitting on my domain since then. Since it was never approved,
+				the content, although true to my knowledge should not be considered for
+				official purposes. Contact your respective coordinators or the Training
+				& Placement Officer for any details required. However, for any queries
+				related to this website, you can email me at{' '}
+				<a
+					href='mailto:contact@kartikbhalla.dev'
+					target='_blank'
+					rel='noreferrer'>
+					contact@kartikbhalla.dev
+				</a>{' '}
+				or you can visit{' '}
+				<a href='https://www.kartikbhalla.dev' target='_blank' rel='noreferrer'>
+					www.kartikbhalla.dev
+				</a>
+				. Cheers!
+				<br />
+				<br />~ Kartik Bhalla, Batch 2018-2022, AIACT&R
+			</Alert>
 			<Carousel>
 				<Carousel.Item>
 					<img
