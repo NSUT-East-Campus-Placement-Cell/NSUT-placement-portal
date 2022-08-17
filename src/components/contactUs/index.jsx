@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../common/navbar';
 import Footer from '../common/footer';
 import { Form, Button } from 'react-bootstrap';
-import { init, send } from 'emailjs-com';
+import { init, send } from '@emailjs/browser';
 
 init('user_HOU00uRGpqhoETRFCKsxp');
 
